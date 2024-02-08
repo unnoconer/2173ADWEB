@@ -28,13 +28,16 @@ export class AppComponent implements OnInit{
       {lname:'Cobol',level:'Beginner'},
     ]
   }
+  
 
   Fruits = ['Apple', 'Orange', 'Grapes', 'Mango', 'Kiwi', 'Pomegranate'];
     decimalNum1: number = 8.7589623;
     decimalNum2: number = 5.43;
+    decimalNum3: number = 10.41231233;
     price : number = 20000;
     a: number = 0.259;
     b: number = 1.3495;
+    c: number = 2.305;
     ngOnInit(){}
   constructor(){
     this.time$ = interval(1000).pipe(
